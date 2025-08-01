@@ -1,8 +1,23 @@
-.page-title {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
+.header-container {
+    background-color: #f1cbbadf;
+    padding: 2rem 1rem;
+    margin-top: 1.5rem;
+    text-align: center ;
+    border-radius: 8px;
+    border: #854b41b1 solid 1px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.site-title {
+    font-family: 'Georgia', 'Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #b26557;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15) rgba(255, 255, 240, 0.6);
+    letter-spacing: 0.5px;
 }
 
 .form-container {
@@ -19,7 +34,7 @@
     gap: 1rem;
     margin-top: 2rem;
     padding: 1rem;
-    background-color: #b17a31;
+    background-color: #b17a31cb;
     border: 6px solid #876231;
 }
 
@@ -28,3 +43,12 @@
     text-orientation: mixed ;
 }
 
+body {
+    background-image: url('assets/background-image.png');
+    background-size: 432px;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #f0e6d2;
+}

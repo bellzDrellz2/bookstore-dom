@@ -9,6 +9,7 @@ function fetchBooks() {
     .then(Response => Response.json())
     .then(data => {
         console.log('API returned:', data);
+        data.forEach(book => renderBook(book));
         })
     .catch((error) => { console.error('Error fetching books:', error); });
 }
@@ -16,9 +17,15 @@ function fetchBooks() {
 
 function renderBook(book) {
     const pastelColors = [
-        'bg-pink-100', 'bg-blue-100', 'bg-green-100',
-        'bg-yellow-100', 'bg-purple-100', 'bg-orange-100',
-        'bg-teal-100', 'bg-red-100', 'bg-gray-100'
+    'bg-[#f7e6da]', // soft peach
+    'bg-[#f1e8dc]', // warm parchment
+    'bg-[#e3e1d5]', // soft mossy gray
+    'bg-[#f8ebd8]', // buttercream ivory
+    'bg-[#eedfe0]', // rose-tinted cream
+    'bg-[#e8d4c3]', // warm tan
+    'bg-[#d9e4dc]', // muted mint
+    'bg-[#f6e7b7]', // soft gold
+    'bg-[#f1eee9]'  // off-white beige
     ];
     const randomColor = pastelColors[Math.floor(Math.random() * pastelColors.length)];
     const bookDiv = document.createElement('div');
