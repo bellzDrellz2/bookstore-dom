@@ -1,0 +1,13 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/workspace settings
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
