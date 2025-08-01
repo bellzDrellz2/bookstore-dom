@@ -31,14 +31,14 @@ function renderBook(book) {
     const bookDiv = document.createElement('div');
     const container = document.getElementById('books-container');
     
-    bookDiv.className = `${randomColor} book-card w-70 h-48 flex items-center justify-center text-ex font-bold text-brown-800 transform rotate-180 writing-vertical relative
-            hover:shadow-lg transition-shadow duration-300 ease-in-out`;
+    bookDiv.className = `
+             ${randomColor} book-card w-70 h-48 flex items-center justify-center text-ex font-bold text-brown-800 transform rotate-180  writing-vertical relative`;
 
     bookDiv.className = `
             ${randomColor} book-card w-70 h-60 rounded shadow-sm
             flex flex-col justify-between items-center 
             text-brown-800 font-semibold
-            relative p-2 shadow-sm text-center `;
+            relative p-2 shadow-sm text-center  hover:shadow-lg transition-transform duration-300 ease-in-out hover:--translate-y-1 hover:rotate-1`;
 
     bookDiv.innerHTML = `
             <p class="text-sm font-semibold text-center justify-center whitespace-pre-line leading-tight mt-auto mb-auto">${book.title.replace(/ /g, '\n')}</p>
