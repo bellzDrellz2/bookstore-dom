@@ -89,3 +89,4 @@ document.getElementById('book-form').addEventListener('submit', (event) => {
                 event.target.parentElement.remove();
             })
         }});
+
