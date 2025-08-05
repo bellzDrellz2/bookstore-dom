@@ -1,6 +1,6 @@
 📚 My Little Bookshelf
 
-My Little Bookshelf is a warm, pastel-inspired digital bookshelf app that allows users to add, view, and delete books using a connected API. It combines Tailwind CSS styling, custom design elements, and JavaScript functionality for a soft, interactive book-logging experience.
+My Little Bookshelf is a warm, pastel-inspired digital bookshelf app that allows users to add, view, and delete books using a connected API. It combines Tailwind CSS styling, custom design elements, textures to books and bookshelf for vintage realism and JavaScript functionality for a soft, interactive book-logging experience.
 
 🚀 Features
 📖 Add new books (title and author)
